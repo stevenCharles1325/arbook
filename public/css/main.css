@@ -1,0 +1,35 @@
+body{
+    background-color: #2c3e50 !important;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-value{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    font-family: monospace;
+
+    background-color: rgba(250, 235, 215, 0.8) ;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+@media only screen and (max-width: 320px){
+    body{
+        background-color: #2c3e50 !important;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .selection{
+        padding: 0px !important;
+        font-size: 10px !important;  
+        width: 35%;
+        height: 100%;
+    }
+}

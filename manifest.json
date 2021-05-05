@@ -1,0 +1,16 @@
+{
+    "name" : "arbook",
+    "short_name" : "arbook",
+    "start_url" : "/",
+    "background_color" : "#2c3e50",
+    "theme_color" : "#bdc3c7",
+    "icons" : [
+        {
+            "src" : "/public/img/study.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ],
+    "display" : "standalone"
+
+}
